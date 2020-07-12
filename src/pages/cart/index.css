@@ -1,0 +1,25 @@
+.cart-empty{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+h2, h1{
+    font-style: oblique;
+    color: blue; 
+}
+
+@media (max-width: 500px){
+    .cart-empty{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 20%;
+    }
+    h2,h1{
+        width: 100%;
+        padding: none;
+        padding-left: none;
+    }
+}
