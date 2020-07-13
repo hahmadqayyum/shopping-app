@@ -10,7 +10,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import MenuIcon from '@material-ui/icons/Menu';
 
-import AccountCircle from '@material-ui/icons/AccountCircle';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 import MoreIcon from '@material-ui/icons/MoreVert';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -158,17 +158,19 @@ const Header = () => {
           <p>Cart</p>
         </MenuItem>
       </Link>
-      <MenuItem onClick={handleProfileMenuOpen}>
-        <IconButton
-          aria-label="account of current user"
-          aria-controls="primary-search-account-menu"
-          aria-haspopup="true"
-          color="inherit"
-        >
-          <AccountCircle />
-        </IconButton>
-        <p>Profile</p>
-      </MenuItem>
+      <a href="https://github.com/hahmadqayyum/shopping-app" target="_blanck">
+        <MenuItem onClick={handleProfileMenuOpen}>
+          <IconButton
+            aria-label="account of current user"
+            aria-controls="primary-search-account-menu"
+            aria-haspopup="true"
+            color="inherit"
+          >
+            <GitHubIcon />
+          </IconButton>
+          <p>GitHub</p>
+        </MenuItem>
+      </a>
     </Menu>
   );
   const { itemsCount } = useContext(ShoppingCartContext)
@@ -214,20 +216,20 @@ const Header = () => {
               </IconButton>
             </Link>
 
+            <a href="https://github.com/hahmadqayyum/shopping-app" target="_blanck">
 
+              <IconButton
+                edge="end"
+                aria-label="account of current user"
+                aria-controls={menuId}
+                aria-haspopup="true"
+                onClick={handleProfileMenuOpen}
+                color="inherit"
+              >
+                <GitHubIcon  style={{color: 'white'}}/>
+              </IconButton>
 
-            <IconButton
-              edge="end"
-              aria-label="account of current user"
-              aria-controls={menuId}
-              aria-haspopup="true"
-              onClick={handleProfileMenuOpen}
-              color="inherit"
-            >
-              <AccountCircle style={{ color: 'white' }} />
-            </IconButton>
-
-
+            </a>
 
           </div>
           <div className={classes.sectionMobile}>

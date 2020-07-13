@@ -9140,6 +9140,11 @@ react-helmet-async@^1.0.6:
     react-fast-compare "^3.0.1"
     shallowequal "^1.1.0"
 
+react-images-uploading@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-images-uploading/-/react-images-uploading-2.2.1.tgz#b28ca740d7b12d54538f5bc292576c2c8d60d013"
+  integrity sha512-LQZN/EbXzDfSXqyXG2YHAj8Lb/o4VedGRxVtQpu1Ycs0J9/XksJRCJs9rufscG1F8U8Q2dD//2Ju1LCpoJnEvw==
+
 react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
