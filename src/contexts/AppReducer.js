@@ -55,14 +55,7 @@ export const AppReducer = (state, action) => {
         shopCartItems: [...state.shopCartItems]
       }
 
-    // case "CHECKOUT":
-      
-    // return {
-    //   shopCartItems: [],
-    //   itemsCount: 0,
-    //   total: 0,
-    //   checkOut: true
-    // }
+  
 
 
     default:
